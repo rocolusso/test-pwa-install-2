@@ -55,7 +55,7 @@ export default function Home() {
 
     return (
         <div style={{ textAlign: 'center', paddingTop: '20%' }}>
-            <h1>{appInstalled ? '✅ App Installed' : '👋 Hello World'}</h1>
+            <h1>{appInstalled ? '✅ ✅App Installed' : '👋 Hello World'}</h1>
 
             {/* Custom Install Prompt */}
             {showPrompt && (
